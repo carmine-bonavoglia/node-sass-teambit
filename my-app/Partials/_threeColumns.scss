@@ -1,0 +1,13 @@
+.box{
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: $bg-color;
+    border: 1px solid black;
+}
+
+.prova{
+    width: 60%;
+    background-color: $bg-color;
+    height: 300px;
+    margin: $margin-cnt;
+}
