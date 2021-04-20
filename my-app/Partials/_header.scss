@@ -1,0 +1,21 @@
+header{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+
+    img{
+        height: 40px;
+    }
+
+
+    ul{
+        li{
+            display: inline-block;
+        }
+    }
+}
