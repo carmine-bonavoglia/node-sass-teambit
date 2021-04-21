@@ -1,8 +1,18 @@
 .box{
     width: calc(100% / 3);
-    height: 400px;
-    background-color: $bg-color;
-    border: 1px solid black;
+    text-align: center;
+    img{
+        height: 120px;
+        margin: 30px;
+    }
+    .bigger{
+    height: 300px;
+    margin-bottom: 100px;
+    }
+    p{
+        font-size: 18px;
+        color: white;
+    }
 }
 
 .prova{
@@ -11,3 +21,4 @@
     height: 300px;
     margin: $margin-cnt;
 }
+

@@ -7,6 +7,7 @@
     @include my-display-flex;
     width: 90%;
     margin: 0 auto;
+    padding: 90px 0;
     .col-left{
         h1{
             color: $text-color;

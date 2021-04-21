@@ -17,6 +17,16 @@ $margin-cnt: 0 auto;
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fw{
+    width: 100%;
+    background-color: $bg-color;
+    padding: 5%
+}
+
 .container-90{
     width: 90%;
     @include my-display-flex;
@@ -64,4 +74,19 @@ button{
 
 a{
     display: block;
+}
+
+h3 {
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    color: white;
 }
