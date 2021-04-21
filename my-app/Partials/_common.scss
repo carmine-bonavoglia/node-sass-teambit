@@ -9,6 +9,7 @@ $margin-cnt: 0 auto;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    flex-wrap: wrap;
 }
 
 *{
@@ -31,7 +32,7 @@ body{
     width: 90%;
     @include my-display-flex;
     margin: $margin-cnt;
-    
+    padding: 50px 0;
 }
 
 .container{
@@ -51,7 +52,6 @@ body{
 .col-left,
 .col-right{
     width: calc(100% / 2);
-    height: 400px;
 }
 
 button{
@@ -80,7 +80,7 @@ h3 {
     width: 70%;
     margin: auto;
     color: white;
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
 }
 

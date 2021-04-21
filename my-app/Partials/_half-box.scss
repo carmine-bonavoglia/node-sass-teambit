@@ -1,0 +1,21 @@
+.container-90{
+    img{
+        width: 100%;
+    }
+}
+
+.wrapper-50{
+    width: 50%;
+    img{
+        width: 100%;
+        margin: 30px 0;
+    }
+    h3{
+        text-align: left;
+        color: $text-color;
+        margin: 20px 0;
+    }
+    p{
+        @include my-line-height;
+    }
+}
