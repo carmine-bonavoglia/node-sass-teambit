@@ -1,6 +1,31 @@
+@mixin my-line-height{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
 .jumbotron{
-    width: 80%;
-    height: 500px;
+    @include my-display-flex;
+    width: 90%;
     margin: 0 auto;
-    border: 1px solid black;
+    .col-left{
+        h1{
+            color: $text-color;
+            font-size: 42px;
+            @include my-line-height;
+        }
+        h4{
+            color: $text-color;
+            font-size: 22px;
+            font-weight: 400;
+            @include my-line-height;
+        }
+        a{
+            margin-top: 20px;
+        }
+    }
+    .col-right{
+        img{
+            width: 100%;
+        }
+    }
 }
