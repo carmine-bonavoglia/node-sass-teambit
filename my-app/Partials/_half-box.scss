@@ -17,5 +17,6 @@
     }
     p{
         @include my-line-height;
+        color: $text-color;
     }
 }

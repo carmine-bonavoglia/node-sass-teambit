@@ -10,8 +10,9 @@ body {
 
 .container-fw {
   width: 100%;
-  background-color: #0414b3;
-  padding: 5%;
+  text-align: center;
+  background-color: #7f14d4;
+  padding: 3%;
 }
 
 .container-90 {
@@ -63,6 +64,8 @@ button:hover {
 
 a {
   display: block;
+  margin-top: 10px;
+  text-decoration: none;
 }
 
 h3 {
@@ -171,4 +174,40 @@ footer {
 .wrapper-50 p {
   line-height: 1.6;
   margin-bottom: 20px;
+  color: #7f14d4;
+}
+
+.text-box {
+  width: 50%;
+  background-color: white;
+  padding: 2%;
+  margin: 30px auto;
+  border-radius: 20px;
+  border: 1px solid black;
+  position: relative;
+}
+.text-box .fas {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: blue;
+}
+.text-box p {
+  margin: 20px 0;
+  text-align: initial;
+}
+
+.img-box {
+  display: flex;
+}
+.img-box img {
+  margin-right: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  line-height: 2.2;
 }

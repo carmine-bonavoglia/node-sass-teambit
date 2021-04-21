@@ -24,8 +24,9 @@ body{
 
 .container-fw{
     width: 100%;
-    background-color: $bg-color;
-    padding: 5%
+    text-align: center;
+    background-color: $text-color;
+    padding: 3%;
 }
 
 .container-90{
@@ -74,6 +75,8 @@ button{
 
 a{
     display: block;
+    margin-top: 10px;
+    text-decoration: none;
 }
 
 h3 {
