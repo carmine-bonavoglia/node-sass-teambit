@@ -70,6 +70,7 @@ button{
     }
     &:hover{
         background-color: $hover-color;
+        cursor: pointer;
     }
 }
 
@@ -77,6 +78,9 @@ a{
     display: block;
     margin-top: 10px;
     text-decoration: none;
+    &:hover{
+        color: $text-color;
+    }
 }
 
 h3 {

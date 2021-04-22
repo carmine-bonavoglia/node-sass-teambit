@@ -60,12 +60,16 @@ button img {
 }
 button:hover {
   background-color: #3e14e9;
+  cursor: pointer;
 }
 
 a {
   display: block;
   margin-top: 10px;
   text-decoration: none;
+}
+a:hover {
+  color: #7f14d4;
 }
 
 h3 {
@@ -86,16 +90,39 @@ hr {
 header {
   height: 70px;
   width: 100%;
+  padding: 0 2%;
   background-color: white;
   display: flex;
   justify-content: space-between;
+  line-height: 70px;
+  border-bottom: 1px solid #0414b3;
+  position: fixed;
+  top: 0;
 }
-
-header img {
+header .logo-img {
   height: 40px;
+  margin: 15px 0;
 }
 header ul li {
   display: inline-block;
+  margin-right: 20px;
+  color: #0414b3;
+  font-weight: 600;
+}
+header ul li:hover {
+  color: #7f14d4;
+  cursor: pointer;
+}
+header button {
+  background-color: white;
+  border: 1px solid #0414b3;
+  color: #0414b3;
+  font-size: 14px;
+}
+header button:hover {
+  background-color: #0414b3;
+  color: white;
+  cursor: pointer;
 }
 
 .jumbotron {
@@ -103,6 +130,7 @@ header ul li {
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
+  margin-top: 70px;
   padding: 90px 0;
 }
 .jumbotron .col-left h1 {
@@ -209,6 +237,13 @@ footer {
   line-height: 1.6;
   margin-bottom: 20px;
   color: #7f14d4;
+}
+
+.container-fw a {
+  color: white;
+}
+.container-fw a:hover {
+  color: #0414b3;
 }
 
 .text-box {
