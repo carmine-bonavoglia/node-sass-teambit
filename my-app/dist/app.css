@@ -150,9 +150,43 @@ header ul li {
 }
 
 footer {
-  width: 100%;
-  height: 350px;
-  border: 1px solid black;
+  padding: 3% 0;
+}
+
+.box-logo {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+.box-logo a {
+  display: inline-block;
+}
+.box-logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.box-menu {
+  width: 15%;
+}
+.box-menu h3 {
+  color: #7f14d4;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.box-menu ul {
+  list-style: none;
+}
+.box-menu ul li {
+  margin-bottom: 10px;
+  color: #7f14d4;
+}
+.box-menu ul li:hover {
+  color: #3e14e9;
+  cursor: pointer;
 }
 
 .container-90 img {
